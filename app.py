@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 from bs4 import BeautifulSoup
 import pandas as pd
-import time
 
 # Function to scrape jobs from a given company's job page
 def scrape_jobs(company_url, keywords):
